@@ -1,0 +1,21 @@
+# Exclude Git repository
+.git
+# Exclude Terraform files and other non-application files
+ecs
+.github
+*.tf
+*.tfstate
+*.tfstate.backup
+
+# Exclude local configuration and unnecessary build files
+node_modules
+dist
+build
+cache
+logs
+
+# Exclude Dockerfile itself if not needed
+Dockerfile
+
+# Exclude anything else not required
+*.md
